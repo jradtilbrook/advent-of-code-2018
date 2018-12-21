@@ -113,3 +113,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# haskell stuff
+part1
+part1.hi
+part1.o
+part2
+part2.hi
+part2.o
