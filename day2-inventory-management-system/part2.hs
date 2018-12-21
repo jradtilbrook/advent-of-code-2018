@@ -9,11 +9,8 @@ idSize = 26
  - sort them with Data.List.sort
  - iterate over them, using the head and 2nd to compare difference
  -}
--- main = interact (unlines . id . lines)
-main = do
-    all <- getContents
-    let all2 = lines all
-    print $ g all2
+
+main = interact (g . lines)
 
 
 -- what letters are common between the two strings that only differ by one character?
